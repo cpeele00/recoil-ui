@@ -1,0 +1,36 @@
+.movie {
+  background-color: #000;
+  height: 70vh;
+  min-height: 553px;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  padding: 0px;
+  z-index: 500;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+}
+
+.movie:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 45%, rgba(0, 0, 0, 0) 100%);
+  z-index: 500;
+}
+
+.movie-content {
+  color: white;
+  z-index: 10001;
+  position: relative;
+  padding: 25px;
+}
+
+.movie-description {
+  width: 40%;
+  margin-top: 25px;
+}
